@@ -1025,7 +1025,10 @@ nav .left{
     gap: 20px;
 }
 #clock-container{
-    width: 40vw;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .timequote{
     font-family: 'Aloevera', sans-serif;
