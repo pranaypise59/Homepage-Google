@@ -20,13 +20,41 @@ const audio = new Audio();
 
 const songs = [
     {
+        name:"NO EXCUSES",
+        path:'songs/motivation/NO EXCUSES.mp3' ,
+        category:'Motivation',
+        language: 'English',
+    },
+    {
         name: "Mana ki mushkil hai",
-        path: "songs/Mana ki mushkil hai.mp3"
+        path: "songs/motivation/Mana ki mushkil hai.mp3",
+        category: "Motivation",
+        language: "Hindi",
     },
     {
         name: "Lakhya",
-        path:'songs/Lakshya.mp3',
+        path:'songs/motivation/Lakshya.mp3',
+        category: "Motivation",
+        language: "Hindi",
     },
+    {
+        name:"Zinda",
+        path:'songs/motivation/zinda.mp3',
+        category: "Motivation",
+        language: "Hindi",
+    },
+    {
+        name:"Imagine Dragons - Believer",
+        path:'songs/motivation/Imagine Dragons - Believer.mp3',
+        category: "Motivation",
+        language: "English",
+    },{
+        name:"Sia - Unstoppable",
+        path:'songs/motivation/Sia - Unstoppable.mp3',
+        category: "Motivation",
+        language: "English",
+    },
+   
 ]
 
 function updateSongList(){
