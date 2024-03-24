@@ -7,7 +7,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/notes.css">
+    <link rel="stylesheet" href="./styles/music.css">
     <link rel="shortcut icon" href="homeboy.png" type="image/x-icon">
     <title>Pranay Pise || Frontend Developer</title>
 </head>
@@ -18,10 +20,10 @@
             <div id="content">
                 <nav>
                     <div class="left">
-                        <img src="homeboy.png" style="height: 50px; " alt="Pranay Pise" />
-                        <h3 class="txt-ne">
+                        <!-- <img src="homeboy.png" style="height: 50px; " alt="Pranay Pise" /> -->
+                        <h1>
                             Pranay Pise
-                        </h3>
+                        </h1>
                     </div>
 
                     <div id="search-container">
@@ -36,7 +38,7 @@
                     </div>
 
                     <div class="right">
-                        <div id="links-container" style="padding-left: 30%; padding-right: 30%;">
+                        <div id="links-container">
                             <a href="https://gmail.com" target="_blank">Gmail</a>
                             <a href="http://www.pranaypise.com" target="_blank">Portfolio</a>
                         </div>
@@ -44,10 +46,13 @@
                 </nav>
 
                 <div class="homepage" style="padding-top: 1%;">
-
-                    <div id="clock-container">
-                        <iframe src="music/index.html" title="clock" frameborder="0" style="width:70%; height: 480px;"></iframe>
-                        <!-- <div class="timequote">Focus on <span class="timequote" style="color: yellowgreen;">Being Productive</span> instead of <span class="timequote" style="color: red;">busy</span></div> -->
+                    <div class="topBar">
+                                <img src="assets/icons/quote.png" alt="quote" class="quote">
+                                <img src="assets/icons/notes.png" alt="notes" class="notes">
+                                <img src="assets/icons/music.png" alt="music" class="music">
+                    </div>
+                    <div id="left-side-container">
+      
                     </div>
 
                     <div id="apps-container">
@@ -125,10 +130,10 @@
 
                         <div class="card">
                             <div class="link">
-                                <img class="logo" src="assets/icons/codepen.svg" alt="">
+                                <img class="logo" src="assets/icons/collaborator.png" alt="" style="filter: invert(1);">
                                 <div class="label">
-                                    <span class="name">CodePen</span>
-                                    <a class="url" href="https://codepen.io/" target="_blank">codepen.io</a>
+                                    <span class="name">Collaborate</span>
+                                    <!-- <a class="url" href="https://codepen.io/" target="_blank">codepen.io</a> -->
                                 </div>
                                 
                             </div>
@@ -148,6 +153,8 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
-    <!-- <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script> -->
+    <script src="javascript/quotes.js"></script>
+    <script src="javascript/notes.js"></script>
+    <script src="javascript/music.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
