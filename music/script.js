@@ -26,6 +26,12 @@ const songs = [
         language: 'English',
     },
     {
+        name:"English Maushup - 1",
+        path:'songs/motivation/english maushup 1.mp3' ,
+        category:'Motivation',
+        language: 'English',
+    },
+    {
         name: "Mana ki mushkil hai",
         path: "songs/motivation/Mana ki mushkil hai.mp3",
         category: "Motivation",
