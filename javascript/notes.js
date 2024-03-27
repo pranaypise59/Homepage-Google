@@ -1,7 +1,7 @@
 const notesHtml = `
 <div id="notes">
 <h4>Notes</h4>
-<textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+<textarea name="notes" id="notes" placeholder="Start writing your notes" spellcheck="true"></textarea>
 </div>
 `
 

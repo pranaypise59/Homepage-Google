@@ -30,3 +30,34 @@
     text-align: center;
     font-size: large;
 }
+#webophilia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#webophilia .container{
+    height: calc(100% - 80px);
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0.173); */
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#webophilia a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+#webophilia a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
